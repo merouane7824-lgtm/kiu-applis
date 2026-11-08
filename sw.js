@@ -1,10 +1,9 @@
-/* Service worker — Le Hadith (KIU)
+/* Service worker — Portail KIU
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-hadith-v2 → kiu-hadith-v3…). */
-const PREFIX = 'kiu-hadith-';
-const CACHE = PREFIX + 'v2';
-const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',
-  './apple-touch-icon.png', './icon-192.png', './icon-512.png', './icon-1024.png'];
+   de version ci-dessous (kiu-portail-v1 → kiu-portail-v2…). */
+const PREFIX = 'kiu-portail-';
+const CACHE = PREFIX + 'v1';
+const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
@@ -21,6 +20,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  if (new URL(req.url).pathname.replace(new URL(self.registration.scope).pathname, '').includes('/')) return;
 
   // Page : réseau d'abord (mises à jour automatiques), cache si hors ligne / réseau lent
   if (req.mode === 'navigate') {

@@ -1,6 +1,6 @@
 /* Service worker — La Sîrah (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-sirah-v2 → kiu-sirah-v3…). */
+   de version ci-dessous (kiu-sirah-v3 → kiu-sirah-v4…). */
 const PREFIX = 'kiu-sirah-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

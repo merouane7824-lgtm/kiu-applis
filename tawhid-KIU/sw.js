@@ -1,6 +1,6 @@
 /* Service worker — Le Monothéisme (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-tawhid-v2 → kiu-tawhid-v3…). */
+   de version ci-dessous (kiu-tawhid-v3 → kiu-tawhid-v4…). */
 const PREFIX = 'kiu-tawhid-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

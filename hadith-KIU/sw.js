@@ -1,6 +1,6 @@
 /* Service worker — Le Hadith (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-hadith-v2 → kiu-hadith-v3…). */
+   de version ci-dessous (kiu-hadith-v3 → kiu-hadith-v4…). */
 const PREFIX = 'kiu-hadith-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

@@ -1,6 +1,6 @@
 /* Service worker — La Jurisprudence (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-fiqh-v2 → kiu-fiqh-v3…). */
+   de version ci-dessous (kiu-fiqh-v3 → kiu-fiqh-v4…). */
 const PREFIX = 'kiu-fiqh-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

@@ -1,6 +1,6 @@
 /* Service worker — La Langue arabe (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-langue-arabe-v2 → kiu-langue-arabe-v3…). */
+   de version ci-dessous (kiu-langue-arabe-v3 → kiu-langue-arabe-v4…). */
 const PREFIX = 'kiu-langue-arabe-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

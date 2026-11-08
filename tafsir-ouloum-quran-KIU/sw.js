@@ -1,6 +1,6 @@
 /* Service worker — Tafsir & Ouloum al-Qur'an (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-tafsir-ouloum-quran-v2 → kiu-tafsir-ouloum-quran-v3…). */
+   de version ci-dessous (kiu-tafsir-ouloum-quran-v3 → kiu-tafsir-ouloum-quran-v4…). */
 const PREFIX = 'kiu-tafsir-ouloum-quran-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

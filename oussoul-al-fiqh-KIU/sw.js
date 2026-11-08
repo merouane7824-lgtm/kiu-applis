@@ -1,6 +1,6 @@
 /* Service worker — Oussoul al-Fiqh (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-oussoul-al-fiqh-v2 → kiu-oussoul-al-fiqh-v3…). */
+   de version ci-dessous (kiu-oussoul-al-fiqh-v3 → kiu-oussoul-al-fiqh-v4…). */
 const PREFIX = 'kiu-oussoul-al-fiqh-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

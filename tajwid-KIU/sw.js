@@ -1,6 +1,6 @@
 /* Service worker — Le Tajwîd (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-tajwid-v2 → kiu-tajwid-v3…). */
+   de version ci-dessous (kiu-tajwid-v3 → kiu-tajwid-v4…). */
 const PREFIX = 'kiu-tajwid-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

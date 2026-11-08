@@ -1,6 +1,6 @@
 /* Service worker — Ouloum al-Hadith (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-ouloum-al-hadith-v2 → kiu-ouloum-al-hadith-v3…). */
+   de version ci-dessous (kiu-ouloum-al-hadith-v3 → kiu-ouloum-al-hadith-v4…). */
 const PREFIX = 'kiu-ouloum-al-hadith-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

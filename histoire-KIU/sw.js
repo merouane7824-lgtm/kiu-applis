@@ -1,6 +1,6 @@
 /* Service worker — L'Histoire islamique (KIU)
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
-   de version ci-dessous (kiu-histoire-v2 → kiu-histoire-v3…). */
+   de version ci-dessous (kiu-histoire-v3 → kiu-histoire-v4…). */
 const PREFIX = 'kiu-histoire-';
 const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './fonts.css', './manifest.webmanifest',

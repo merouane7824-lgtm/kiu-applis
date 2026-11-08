@@ -1,0 +1,28 @@
+KIU — Mes cours : 10 applis de révision (thème KIU)
+====================================================
+
+Contenu du dossier
+- index.html ............ page d'accueil commune (« Mes cours ») qui relie toutes les matières
+- tawhid-KIU/ ........... Le Monothéisme (S1 · S2 · S4)
+- fiqh-KIU/ ............. La Jurisprudence (S2 · S3 · S4)
+- oussoul-al-fiqh-KIU/ .. Oussoul al-Fiqh (S3 · S4)
+- hadith-KIU/ ........... Le Hadith (S2 · S3)
+- ouloum-al-hadith-KIU/ . Ouloum al-Hadith (S3 · S4)
+- sirah-KIU/ ............ La Sîrah (S1 · S2)
+- tafsir-ouloum-quran-KIU/  Tafsir & Ouloum al-Qur'an (S2 · S3)
+- tajwid-KIU/ ........... Le Tajwîd (S2)
+- langue-arabe-KIU/ ..... La Langue arabe (S2 · S3)
+- histoire-KIU/ ......... L'Histoire islamique (S1 · S3)
+
+Chaque appli contient : index.html, fonts.css, manifest.webmanifest, sw.js et ses icônes.
+Elle fonctionne hors ligne et s'installe sur l'écran d'accueil (comme « La Sîrah médinoise »).
+
+Mise en ligne sur GitHub Pages
+1. Crée un dépôt (ex. « kiu-cours ») et dépose-y tout le contenu de ce dossier.
+2. Settings > Pages > Branch : main, dossier / (root).
+3. Adresse : https://<ton-compte>.github.io/kiu-cours/  (chaque matière : …/kiu-cours/tawhid-KIU/)
+   Le bouton « ← Toutes mes matières KIU » apparaît en bas de l'accueil de chaque appli quand elle est publiée avec la page commune.
+   Tu peux aussi publier une seule appli dans son propre dépôt : copie simplement son dossier à la racine du dépôt.
+
+Mettre à jour une appli
+Remplace index.html puis augmente le numéro de version dans sw.js (kiu-…-v1 → kiu-…-v2) pour forcer la mise à jour sur le téléphone.

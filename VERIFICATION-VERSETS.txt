@@ -1,0 +1,67 @@
+VÉRIFICATION DES VERSETS — Applis KIU (8 novembre 2026)
+=========================================================
+
+MÉTHODE
+- Texte de référence : le Coran (mushaf de Médine, texte uthmani) et la traduction
+  française de Hamidullah (corpus quran-json / QuranEnc).
+- 1 940 passages en arabe passés en revue dans les 10 applis : blocs « Verset »,
+  texte des fiches, QCM, flashcards, lexique et pieds de page.
+- 283 citations coraniques identifiées et comparées mot à mot au mushaf
+  (orthographe, mots manquants, ordre des mots, mots collés).
+- Chaque référence (sourate : verset) confrontée au verset réellement cité ;
+  citations françaises comparées à la traduction du verset indiqué.
+- Contrôles généraux : QCM (bonne réponse valide, options vides ou en double),
+  fiches et liens internes, restes de mise en forme, absence de la mention « Institut ».
+
+RÉSULTAT
+- Aucune référence de verset erronée dans les notes de cours.
+- Après corrections : 0 verset mal recopié, 0 référence incohérente, 0 erreur JavaScript.
+
+CORRECTIONS APPORTÉES
+1. Versets illisibles issus des PDF (mots collés, lettres inversées comme « لإيك »
+   pour « إليك », ligature lâm-alif cassée) remplacés par le texte exact du mushaf :
+   - Sîrah S1 : Al-Isrâ' 81, Al-A‘râf 157, Al-Ahzâb 21 et 45, Al-‘Alaq 1-5,
+     Al-Muddaththir 1-3, Al-Hijr 6, Tâ-Hâ 1-2 et 14, At-Tawba 32-33 et 128,
+     Al-Mâ'ida 67, Al-Ahqâf 29 (complété : « … مِّنَ الْجِنِّ يَسْتَمِعُونَ الْقُرْآنَ »).
+   - Histoire de la législation S1 : Adh-Dhâriyât 56, Al-Mâ'ida 67, An-Nisâ' 113,
+     Ash-Shûrâ 51 (fiches et flashcards).
+2. Sîrah S2 : texte arabe parasité par des « ** » lettre par lettre (≈ 600 marqueurs)
+   nettoyé — versets (Al-Ahzâb 10, An-Nasr…) et invocations redevenus lisibles ;
+   lignes d'astérisques et 2 flashcards vides supprimées.
+3. Tajwîd — exemples coraniques corrigés :
+   - Al-Ghâshiya 4 : « تَصْلَىٰ » (et non « تَضْلَىٰ ») ;
+   - Al-Fîl 4 : « تَرْمِيهِم بِحِجَارَةٍ » (et non « لِيَرْمِيَهُم ») ;
+   - Al-Qiyâma 7-8 : ordre rétabli « فَإِذَا بَرِقَ الْبَصَرُ * وَخَسَفَ الْقَمَرُ » ;
+   - An-Nisâ' 176 : « يَسْتَفْتُونَكَ قُلِ اللَّهُ » (sans و) ; « لَهُ مُلْكُ السَّمَاوَاتِ » (sans و) ;
+   - « (القرقان) » → « (الفرقان) » ;
+   - Exception d'Az-Zumar 7 : « يَرْضَهُ لَكُمْ » (au lieu d'un passage sans rapport) ;
+   - QCM Al-Fâtiha 7 : « غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ».
+   À VÉRIFIER avec tes notes (reconstitution d'exemples altérés) :
+   - Al-Mâ'ida 49 (ikhfâ' shafawî) : « وَأَنِ احْكُم بَيْنَهُم بِمَا أَنزَلَ اللَّهُ »
+     remplace « وَاحْذَرْهُمْ بِأَن يَفْتِنُوكَ » (le verset dit « أَن » : pas de ب) ;
+   - Al-Baqara 248 (ṣila kubrâ) : « إِنَّ آيَةَ مُلْكِهِ أَن يَأْتِيَكُمُ »
+     remplace « إِنَّهُ أَعْلَمُ بِمَا » (absent du Coran) ;
+   - Izhâr shafawî : « رَّبُّكُمْ ذُو رَحْمَةٍ » (Al-An‘âm 147) remplace « زُبٍّ رَّحْمَةٍ » ;
+   - Ikhfâ' : « وَمَن ضَلَّ · عَمَلًا صَالِحًا » et « مِن شَرِّ · يَتِيمًا فَآوَىٰ »
+     (exemples mélangés dans la source).
+4. Ouloum al-Hadith : An-Najm 3 commence par « وَمَا يَنطِقُ… » (le و manquait).
+5. Hadith : le titre complet du Jâmi‘ d'at-Tirmidhî n'est plus étiqueté « Verset ».
+6. Tawhîd S1 : « Al-Hashr : 22-24 » → « Al-Hashr : 24 » (seul le v. 24 est cité).
+7. Sîrah : hadith d'at-Tirmidhî « مَا ضَرَّ عُثْمَانَ مَا عَمِلَ بَعْدَ الْيَوْمِ » (عثمانَ, et non عثمانُ).
+8. Références ajoutées aux blocs « Verset » qui n'indiquaient que le nom de la
+   sourate (ou rien) :
+  - Hadith (1) : Al-‘Ankabût : 2
+  - Histoire de la législation (14) : Yûsuf : 111, Hûd : 120, Yûnus : 14, An-Nûr : 55, Al-Fath : 16, Al-Fâtiha : 7, An-Nisâ' : 69, Âl ‘Imrân : 110, At-Tawba : 100, Al-Fath : 29, An-Nisâ' : 115, At-Tawba : 80, At-Tawba : 84, Al-Baqara : 249
+  - Oussoul al-Fiqh (2) : Ash-Shu‘arâ' : 195, Al-An‘âm : 108
+  - Tafsîr & Ouloum al-Qur’ân (2) : Al-Hijr : 9, Al-Isrâ' : 88
+  - Tajwîd (3) : Muhammad : 19, Al-Hâqqa : 19, Al-Hadîd : 3
+  - Tawhîd (21) : Ar-Rûm : 30, Adh-Dhâriyât : 56, An-Nahl : 36, Al-Hijr : 99, Al-An‘âm : 55, Ash-Shu‘arâ' : 97-98, Al-Baqara : 108, Al-Baqara : 217, Al-Mâ'ida : 3, Ghâfir : 60, Al-Jinn : 18, Fâtir : 14, Az-Zumar : 3, Yûnus : 18, An-Najm : 26, Al-Kawthar : 2, Az-Zumar : 38, Al-Baqara : 102, Al-Mâ'ida : 55, Al-Mumtahana : 4, Al-Mâ'ida : 51
+
+NON MODIFIÉ (volontairement)
+- Graphies arabes usuelles différentes du rasm uthmani (الصلاة / الصلوة, الزنا / الزنى,
+  شيئًا, إسرائيل…) : elles sont correctes.
+- Citations partielles d'un verset utilisées comme exemple de grammaire.
+- Tous les autres blocs « Verset » étaient déjà exacts au mot près.
+
+Mise à jour : le cache hors-ligne passe en v2, les applis déjà installées
+se mettent à jour à la prochaine ouverture en ligne.
